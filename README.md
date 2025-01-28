@@ -78,38 +78,32 @@ How to Execute Test Cases
 Test Scenarios Included
 
 1. Login Test
+   - Verifies that a standard user can log in successfully and is on Inventory Page.
 
-- Verifies that a standard user can log in successfully and is on Inventory Page.
+3.  Full Checkout Process Test ((InventoryItemCheckoutTest, StandarUserCheckoutTest)
+   - Covers the entire checkout process from logging into the website, inventory page, from adding an item to the cart to completing the order.
+   - Separate test that goes to the inventory item page and completes checkout flow.
 
-2.  Full Checkout Process Test ((InventoryItemCheckoutTest, StandarUserCheckoutTest)
-
-- Covers the entire checkout process from logging into the website, inventory page, from adding an item to the cart to completing the order. 
-
-- Separate test that goes to the inventory item page and completes checkout flow.
-
-3. Negative Checkout Tests
-
-- 4 Tests that check various combinations of missing information during checkout process, including First Name, Last Name, and Zip Code missing.
+4. Negative Checkout Tests
+   - Tests that check various combinations of missing information during checkout process, including First Name, Last Name, and Zip Code missing.
 
 5. Inventory Image verification
+   - Covers whether the image is correct, one test for standar_user and one test for visual_user
 
-- Covers whether the image is correct, one test for standar_user and one test for visual_user
+7. Locked Out User Test
+   - Verifies error message given with user that is locked out when attempting to log into the website
 
-6. Locked Out User Test
+8. Performance Test
+   - Test how quickly the performance_glitch user takes to log into the website
 
-- Verifies error message given with user that is locked out when attempting to log into the website
+9. Remove Cart Item Test
+   - Tests whether an item can be added and removed on the inventory page (tested with problem_user)
 
-7. Performance Test
+10. Check sorting functionality
+    - Test to check sorting Functionality
 
-- Test how quickly the performance_glitch user takes to log into the website
-
-8. Remove Cart Item Test
-
-- Tests whether an item can be added and removed on the inventory page (tested with problem_user)
-
-9. Item Description verification
-
-- Checks two different items for the proper descriptions on the inventory page
+11. Item Description verification
+   - Checks two different items for the proper descriptions on the inventory page
 
 
 Reporting
