@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite">
+    <test name="Run All Test Classes in Packages">
+        <packages>
+            <package name="saucedemo.tests.login" />
+            <package name="saucedemo.tests.inventory" />
+            <package name="saucedemo.tests.checkout" />
+        </packages>
+    </test>
+</suite>
